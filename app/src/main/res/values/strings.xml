@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dice App</string>
+    <string name="roll_dice_txt">ROLL</string>
+    <string name="dice_img">dice_img</string>
+    <string name="roll_btn">roll_btn</string>
+
+</resources>
