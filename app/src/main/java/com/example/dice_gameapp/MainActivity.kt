@@ -7,14 +7,22 @@ import android.widget.ImageView
 
 class MainActivity : AppCompatActivity() {
     lateinit var rollBtn:Button
-    lateinit var diceImg:ImageView
+//    lateinit var diceImg:ImageView
+      lateinit var diceImg1:ImageView
+      lateinit var diceImg2:ImageView
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
         rollBtn=findViewById(R.id.roll_btn)
-        diceImg= findViewById(R.id.dice_img)
+//        diceImg= findViewById(R.id.dice_img)
+        diceImg1= findViewById(R.id.dice_img1)
+        diceImg2= findViewById(R.id.dice_img2)
+
+
+
         rollBtn.setOnClickListener(){
             var randomNum:Int = (1..6).random()
             var image = when(randomNum){
@@ -25,7 +33,9 @@ class MainActivity : AppCompatActivity() {
                 5 -> R.drawable.dice5
                 else -> R.drawable.dice6
             }
-            diceImg.setImageResource(image)
+            diceImg1.setImageResource(image)
+
+
         }
     }
 }

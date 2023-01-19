@@ -5,17 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/teal_200"
-
     tools:context=".MainActivity">
-
-<!--    <ImageView-->
-<!--        android:id="@+id/dice_img"-->
-<!--        android:layout_width="150dp"-->
-<!--        android:layout_height="150dp"-->
-<!--        android:layout_centerInParent="true"-->
-<!--        android:contentDescription="@string/dice_img"-->
-<!--        android:src="@drawable/dice6" />-->
-
 
 
     <ImageView
@@ -39,21 +29,26 @@
         app:srcCompat="@drawable/dice2" />
 
 
-    <Button
 
-        android:id="@+id/roll_btn"
-        android:layout_width="307dp"
-        android:layout_height="120dp"
+    <Button
+        android:id="@+id/roll_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginBottom="161dp"
+        android:text="Player-1" />
+
+    <Button
+        android:id="@+id/roll_btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="41dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="63dp"
-        android:layout_marginBottom="73dp"
-        android:text="@string/roll_dice_txt"
-        android:textColor="@color/dark_pink"
-        android:textSize="60sp" />
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="156dp"
+        android:text="Player-2" />
 
 
 </RelativeLayout>
