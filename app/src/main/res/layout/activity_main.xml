@@ -8,13 +8,36 @@
 
     tools:context=".MainActivity">
 
+<!--    <ImageView-->
+<!--        android:id="@+id/dice_img"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:contentDescription="@string/dice_img"-->
+<!--        android:src="@drawable/dice6" />-->
+
+
+
     <ImageView
-        android:id="@+id/dice_img"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_centerInParent="true"
-        android:contentDescription="@string/dice_img"
-        android:src="@drawable/dice6" />
+        android:id="@+id/dice_img1"
+        android:layout_width="157dp"
+        android:layout_height="171dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="125dp"
+        app:srcCompat="@drawable/dice1" />
+
+    <ImageView
+        android:id="@+id/dice_img2"
+        android:layout_width="157dp"
+        android:layout_height="171dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="31dp"
+        app:srcCompat="@drawable/dice2" />
+
 
     <Button
 
