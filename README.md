@@ -12,7 +12,7 @@ Select your connected Android device from the list of available devices.
 Click 'OK' to begin the deployment process.
 Once the deployment is complete, you should see your app installed on your Android device.
 
-## Deploying to a Deploying to a virtual device through Android Studio:
+## Deploying to a virtual device through Android Studio:
 1. You have to open the AVD Manager in Android Studio by going to Tools.
 2. Then Create a new virtual device by clicking the "Create Virtual Device" button.
 3. Select the type of device you want to emulate and click "Next".
